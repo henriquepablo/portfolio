@@ -53,3 +53,12 @@ nav > a {
     font-size: 19px;
 }
 
+nav > a:hover {
+    color: #161212;
+    transition: 1s;
+}
+
+body {
+    background-color: #020617;
+}
+
