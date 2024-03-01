@@ -122,3 +122,32 @@ li {
     flex-wrap: wrap;
 }
 
+#Contato > h2 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+#Contato >  h3 {
+    color: #96969f;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+#Contato > div {
+    display: flex;
+}
+
+#Contato > div > div > div {
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#Contato > div > div > div > img {
+    width: 35px;
+}
