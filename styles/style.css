@@ -62,3 +62,36 @@ body {
     background-color: #020617;
 }
 
+#Habilidades > div > h2 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+#Habilidades > div > h3 {
+    color: #96969f;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+#Habilidades > div {
+    margin-top: 120px;
+}
+
+li {
+    list-style: none;
+    width: 130px;
+    height: 130px;
+    border: 1px dashed blue;
+    text-align: center;
+}
+
+li > img {
+    margin-top: 40px;
+}
+
+#Habilidades > div > div > ul {
+    display: flex;
+    margin-left: 200px;
+}
+
