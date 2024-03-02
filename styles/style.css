@@ -136,18 +136,50 @@ li {
 
 #Contato > div {
     display: flex;
+    margin-left: 200px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    gap: 180px;
 }
 
-#Contato > div > div > div {
+#Contato > div > div > a > div {
     width: 50px;
     height: 50px;
-    background-color: #000000;
+    background-color: #ffffff;
     border-radius: 50%;
     display: flex;
     text-align: center;
     justify-content: center;
+    margin: 0 auto;
 }
 
-#Contato > div > div > div > img {
-    width: 35px;
+#Contato > div > div > a > div > img {
+    width: 28px;
+}
+
+#Contato > div > div {
+    text-align: center;
+}
+
+#Contato > div > div > p {
+    color: #ffffff;
+}
+
+#Contato > div > div > span {
+    color: #595959;
+    font-size: 14px;
+}
+
+#Contato > div > div:hover {
+    transition: 0.5s ;
+    transform: scale(1.1);
+}
+
+#Contato > div > div {
+    transform: scale(1.0);
+    transition: transform 500ms;
+}
+
+#Contato > div > div > div > .logos_Social{
+    width: 37px;
 }
