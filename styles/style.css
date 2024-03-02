@@ -14,7 +14,7 @@ header {
 }
 
 #header {
-    background-image: linear-gradient(to right,#6649A7, #000000 );
+    background-image: linear-gradient(to bottom,#6649A7, #020617 ); 
     height: 600px;
 }
 
@@ -35,8 +35,26 @@ header > h1, h2 {
 
 header > h1 {
     font-size: 60px;
-    color: rgb(0, 0, 0);
-    text-shadow: 1px 3px rgb(255, 255, 255);
+    color: #ffffff;
+    text-shadow: 3px 7px #020617;
+}
+
+header > img {
+    margin-top: 15px;
+    margin-left: 400px;
+}
+
+header > img {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }
 }
 
 header > h2 {
@@ -139,6 +157,7 @@ li {
     margin-left: 200px;
     margin-top: 25px;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 180px;
 }
 
@@ -183,4 +202,14 @@ li {
 
 #Contato > div > div > div > .logos_Social{
     width: 37px;
+}
+
+#Projeto  > h2 {
+    color: #ffffff;
+}
+
+#Projeto > h3 {
+    color: #595959;
+    margin-top: 10px;
+    margin-left: 200px;
 }
