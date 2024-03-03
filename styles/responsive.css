@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+    header > h1, h2 {
+        margin-left: 60px;
+    }
+    header > div {
+        margin-left: 60px;
+    }
+
+    #Habilidades > div > h3 {
+        margin-left: 60px;
+    }
+
+    #Habilidades > div > div > ul {
+        margin-left: 60px;
+    }
+
+    #Projeto > div {
+        margin-left: 60px;
+        gap: 20px;
+    }
+
+    #Projeto > h3 {
+        margin-left: 60px;
+    }
+
+    #Contato > h3 {
+        margin-left: 60px;
+    }
+
+    #Contato > div {
+        margin-left: 60px;
+    }
+}
