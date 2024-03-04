@@ -92,11 +92,12 @@ body {
 #Habilidades > div > h2 {
     color: #ffffff;
     font-size: 30px;
+    margin-left: 160px;
 }
 
 #Habilidades > div > h3 {
     color: #96969f;
-    margin-left: 200px;
+    margin-left: 160px;
     margin-top: 10px;
     font-size: 22px;
 }
@@ -141,18 +142,20 @@ li {
 
 #Habilidades > div > div > ul {
     display: flex;
-    margin-left: 200px;
+    margin-left: 40px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #Contato > h2 {
     color: #ffffff;
     font-size: 30px;
+    margin-left: 140px;
 }
 
 #Contato >  h3 {
     color: #96969f;
-    margin-left: 200px;
+    margin-left: 140px;
     margin-top: 10px;
     font-size: 22px;
 }
@@ -210,20 +213,22 @@ li {
 
 #Projeto  > h2 {
     color: #ffffff;
+    margin-left: 140px;
 }
 
 #Projeto > h3 {
     color: #595959;
     margin-top: 10px;
-    margin-left: 200px;
+    margin-left: 140px;
 }
 
 #Projeto > div {
     display: flex;
     flex-wrap: wrap;
     gap: 80px;
-    margin-left: 200px;   
+    margin-left: 40px;   
     margin-top: 15px; 
+    justify-content: center;
 }
 
 #Projeto > div > div{
