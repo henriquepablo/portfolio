@@ -31,3 +31,42 @@
         margin-left: 60px;
     }
 }
+
+@media (max-width: 480px) {
+    #Habilidades > div > h2 {
+        margin-left: 110px;
+    }
+
+    #Habilidades > div > h3 {
+        margin-left: 110px;
+    }
+
+    #Habilidades > div > div > ul {
+        margin-left: 20px
+    }
+
+    #Projeto > div {
+        margin-left: 20px;
+        gap: 20px;
+    }
+
+    #Projeto > h2 {
+        margin-left: 80px;
+    }
+
+    #Projeto > h3 {
+        margin-left: 80px;
+    }
+
+    #Contato > h2 {
+        margin-left: 80px;
+    }
+
+    #Contato > h3 {
+        margin-left: 80px;
+    }
+
+    #Contato > div {
+        margin-left: 0px;
+    }
+}
