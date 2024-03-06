@@ -92,12 +92,12 @@ body {
 #Habilidades > div > h2 {
     color: #ffffff;
     font-size: 30px;
-    margin-left: 160px;
+    margin-left: 140px;
 }
 
 #Habilidades > div > h3 {
     color: #96969f;
-    margin-left: 160px;
+    margin-left: 140px;
     margin-top: 10px;
     font-size: 22px;
 }
@@ -146,6 +146,10 @@ li {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+#Contato {
+    padding: 0rem 0rem 3rem;
+} 
 
 #Contato > h2 {
     color: #ffffff;
